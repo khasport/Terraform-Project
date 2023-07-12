@@ -3,9 +3,9 @@ provider "aws" {
 }
 
 resource "aws_instance" "hello" {
-  ami           = "ami-09dd2e08d601bff67"
+  ami           = "ami-0df7a207adb9748c7"
   instance_type = "t2.micro"
   tags = {
-    Name = "New_AWS INfra"
+    Name = "New_AWS Infra"
   }
 }
